@@ -1,7 +1,3 @@
-Absolutely! Here’s an **iterated and polished README.md** for your project, **Agency – An Installable AI Assistant for School Counselors**. This version is structured for clarity, professionalism, and practical use, and includes your build plan, technical details, value proposition, installation, and more.
-
----
-
 # Agency: Installable AI Assistant for School Counselors
 
 **Agency** is an installable, AI-powered assistant designed to reduce the administrative burden on school counselors. By automating repetitive tasks, centralizing fragmented data, and surfacing actionable insights, Agency helps counselors spend more time supporting students and less time on paperwork.
