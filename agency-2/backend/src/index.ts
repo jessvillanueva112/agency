@@ -36,4 +36,12 @@ mongoose.connect(MONGODB_URI)
 app.use((err: Error, req: Request, res: Response, next: Function) => {
   console.error(err.stack);
   res.status(500).json({ message: 'Something went wrong!' });
-}); 
+});
+
+// Add this at the end of the file for the entry point skeleton
+// import { AgencyAssistant } from './core/ai/assistant';
+// async function main() {
+//   const assistant = new AgencyAssistant();
+//   await assistant.processCounselorWorkflow();
+// }
+// main().catch(console.error); 
