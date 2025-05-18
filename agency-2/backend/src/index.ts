@@ -2,16 +2,30 @@ import express, { Express, Request, Response } from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import mongoose from 'mongoose';
+import studentRoutes from './routes/Student'; // <-- Make sure this is here
+import counselorRoutes from './routes/counselor';
+import eventRoutes from './routes/event';
+import consentRoutes from './routes/consent';
+import communicationRoutes from './routes/communication';
+import auditLogRoutes from './routes/auditLog';
 
 // Load environment variables
 dotenv.config();
-
+console.log('MONGODB_URI:', process.env.MONGODB_URI);
 const app: Express = express();
 const port = process.env.PORT || 5003;
 
 // Middleware
 app.use(cors());
 app.use(express.json());
+
+// Register your routes here!
+app.use('/api/students', studentRoutes);
+app.use('/api/counselors', counselorRoutes);
+app.use('/api/events', eventRoutes);
+app.use('/api/consents', consentRoutes);
+app.use('/api/communications', communicationRoutes);
+app.use('/api/audit-logs', auditLogRoutes);
 
 // Basic route
 app.get('/', (req: Request, res: Response) => {
@@ -41,7 +55,7 @@ app.use((err: Error, req: Request, res: Response, next: Function) => {
 // Add this at the end of the file for the entry point skeleton
 // import { AgencyAssistant } from './core/ai/assistant';
 // async function main() {
-//   const assistant = new AgencyAssistant();
-//   await assistant.processCounselorWorkflow();
+//   const assistant = new AgencyAssistant(...);
+//   await assistant.processWorkflow();
 // }
 // main().catch(console.error); 
