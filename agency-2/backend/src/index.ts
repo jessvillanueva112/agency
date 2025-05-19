@@ -2,12 +2,14 @@ import express, { Express, Request, Response } from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import mongoose from 'mongoose';
-import studentRoutes from './routes/Student'; // <-- Make sure this is here
+import studentRoutes from './routes/student'; // <-- Make sure this is here
 import counselorRoutes from './routes/counselor';
 import eventRoutes from './routes/event';
 import consentRoutes from './routes/consent';
 import communicationRoutes from './routes/communication';
 import auditLogRoutes from './routes/auditLog';
+import incidentRoutes from './routes/incident';
+import assessmentRoutes from './routes/assessment';
 
 // Load environment variables
 dotenv.config();
@@ -26,6 +28,8 @@ app.use('/api/events', eventRoutes);
 app.use('/api/consents', consentRoutes);
 app.use('/api/communications', communicationRoutes);
 app.use('/api/audit-logs', auditLogRoutes);
+app.use('/api/incidents', incidentRoutes);
+app.use('/api/assessments', assessmentRoutes);
 
 // Basic route
 app.get('/', (req: Request, res: Response) => {
@@ -50,6 +54,15 @@ mongoose.connect(MONGODB_URI)
 app.use((err: Error, req: Request, res: Response, next: Function) => {
   console.error(err.stack);
   res.status(500).json({ message: 'Something went wrong!' });
+});
+
+// Basic Auth Middleware (for demo only)
+app.use((req, res, next) => {
+  const auth = req.headers['authorization'];
+  if (!auth || auth !== 'Bearer agencytoken112secretshh') {
+    return res.status(401).json({ error: 'Unauthorized' });
+  }
+  next();
 });
 
 // Add this at the end of the file for the entry point skeleton
