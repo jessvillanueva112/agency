@@ -16,6 +16,7 @@ export interface Note {
     standardizedAt: Date;
     version: string;
   };
+  [key: string]: any;
 }
 
 export interface NoteTemplate {

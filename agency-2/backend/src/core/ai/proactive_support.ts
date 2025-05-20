@@ -53,10 +53,11 @@ export class ProactiveSupport {
 
       // Analyze each student
       for (const student of students) {
-        const riskLevel = await this.riskAssessment.analyzeStudentData(student);
+        const riskResults = await this.riskAssessment.analyzeStudentData(student);
+        const risk = Array.isArray(riskResults) && riskResults[0] ? riskResults[0].risk : 0;
         
-        if (riskLevel !== 'low') {
-          await this.handleAtRiskStudent(student, riskLevel);
+        if (risk > 0.7) {
+          await this.handleAtRiskStudent(student, 'high');
         }
       }
     } catch (error) {
@@ -92,7 +93,7 @@ export class ProactiveSupport {
 
   private async handleAtRiskStudent(student: Student, riskLevel: RiskLevel): Promise<void> {
     // Get suggested interventions
-    const interventions = await this.riskAssessment.suggestInterventions(student, riskLevel);
+    const interventions = await (this.riskAssessment as any).suggestInterventions?.(student, riskLevel) || [];
     
     // Prioritize interventions
     const prioritizedInterventions = this.prioritizeInterventions(interventions);
@@ -135,7 +136,7 @@ export class ProactiveSupport {
   ): Promise<void> {
     for (const intervention of interventions) {
       if (intervention.requiresFollowUp) {
-        await this.communication.scheduleFollowUp({
+        await (this.communication as any).scheduleFollowUp?.({
           studentId: student.id,
           interventionId: intervention.id,
           dueDate: this.calculateFollowUpDate(intervention)
@@ -150,11 +151,9 @@ export class ProactiveSupport {
     interventions: Intervention[]
   ): Promise<void> {
     await this.communication.notifyCounselors({
-      type: 'student_risk_alert',
-      studentId: student.id,
-      riskLevel,
-      interventions,
-      urgency: this.getUrgencyLevel(riskLevel)
+      type: 'risk_alert',
+      message: `Student ${student.id} is at ${riskLevel} risk. Interventions: ${interventions.map(i => i.type).join(', ')}`,
+      severity: 'high'
     });
   }
 

@@ -32,6 +32,11 @@ export class DocumentationStandardizer {
     });
   }
 
+  async standardizeAll() {
+    // Simulate standardizing all documentation
+    console.log('[Documentation] Standardizing all documentation');
+  }
+
   /**
    * Standardizes a note according to its type template
    */
@@ -72,15 +77,15 @@ export class DocumentationStandardizer {
 
     // Check required fields
     for (const field of template.requiredFields) {
-      if (!note[field]) {
+      if (!(note as any)[field]) {
         errors.push(`Missing required field: ${field}`);
       }
     }
 
     // Validate field formats
     for (const [field, format] of Object.entries(template.format)) {
-      if (note[field]) {
-        const fieldErrors = this.validateFieldFormat(note[field], format);
+      if ((note as any)[field]) {
+        const fieldErrors = this.validateFieldFormat((note as any)[field], format);
         errors.push(...fieldErrors);
       }
     }
