@@ -14,32 +14,35 @@ function checkAuth(req: NextRequest) {
   return auth === 'Bearer agencytoken112secretshh';
 }
 
-export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
+export async function GET(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   if (!checkAuth(req)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
+  const { id } = await params;
   await mongoose.connect(process.env.MONGODB_URI!);
-  const consent = await Consent.findById(params.id);
+  const consent = await Consent.findById(id);
   if (!consent) return NextResponse.json({ error: 'Not found' }, { status: 404 });
   return NextResponse.json(consent);
 }
 
-export async function PUT(req: NextRequest, { params }: { params: { id: string } }) {
+export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   if (!checkAuth(req)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
+  const { id } = await params;
   await mongoose.connect(process.env.MONGODB_URI!);
   const data = await req.json();
-  const consent = await Consent.findByIdAndUpdate(params.id, data, { new: true });
+  const consent = await Consent.findByIdAndUpdate(id, data, { new: true });
   if (!consent) return NextResponse.json({ error: 'Not found' }, { status: 404 });
   return NextResponse.json(consent);
 }
 
-export async function DELETE(req: NextRequest, { params }: { params: { id: string } }) {
+export async function DELETE(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   if (!checkAuth(req)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
+  const { id } = await params;
   await mongoose.connect(process.env.MONGODB_URI!);
-  await Consent.findByIdAndDelete(params.id);
+  await Consent.findByIdAndDelete(id);
   return NextResponse.json({ success: true });
 } 

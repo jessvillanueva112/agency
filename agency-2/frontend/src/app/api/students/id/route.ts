@@ -13,32 +13,35 @@ function checkAuth(req: NextRequest) {
   return auth === 'Bearer agencytoken112secretshh';
 }
 
-export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
+export async function GET(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   if (!checkAuth(req)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
+  const { id } = await params;
   await mongoose.connect(process.env.MONGODB_URI!);
-  const student = await Student.findById(params.id);
+  const student = await Student.findById(id);
   if (!student) return NextResponse.json({ error: 'Not found' }, { status: 404 });
   return NextResponse.json(student);
 }
 
-export async function PUT(req: NextRequest, { params }: { params: { id: string } }) {
+export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   if (!checkAuth(req)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
+  const { id } = await params;
   await mongoose.connect(process.env.MONGODB_URI!);
   const data = await req.json();
-  const student = await Student.findByIdAndUpdate(params.id, data, { new: true });
+  const student = await Student.findByIdAndUpdate(id, data, { new: true });
   if (!student) return NextResponse.json({ error: 'Not found' }, { status: 404 });
   return NextResponse.json(student);
 }
 
-export async function DELETE(req: NextRequest, { params }: { params: { id: string } }) {
+export async function DELETE(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   if (!checkAuth(req)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
+  const { id } = await params;
   await mongoose.connect(process.env.MONGODB_URI!);
-  await Student.findByIdAndDelete(params.id);
+  await Student.findByIdAndDelete(id);
   return NextResponse.json({ success: true });
 } 
