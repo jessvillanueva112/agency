@@ -22,6 +22,7 @@
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [License](#license)
+- [Deployment Checklist (Vercel)](#deployment-checklist-vercel)
 
 ---
 
@@ -254,3 +255,29 @@ Agency's design and features are informed by extensive research and real-world f
 ---
 
 **Agency: Helping counselors help students-by putting time and focus back where it matters most.**
+
+---
+
+## Deployment Checklist (Vercel)
+
+1. Ensure the following files exist and are committed:
+   - src/app/layout.tsx
+   - src/app/page.tsx
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Add a `.env` file (or set environment variables in Vercel dashboard):
+   - MONGODB_URI
+   - JWT_SECRET
+   - NODE_ENV
+4. In Vercel project settings:
+   - Framework Preset: Next.js
+   - Root Directory: Project root (where package.json is)
+   - Build Command: `next build` (default)
+   - Output Directory: `.next` (default)
+5. Push all changes to your main branch.
+6. Trigger a redeploy in Vercel (clear cache if needed).
+7. Visit your deployed site root URL (`/`).
+
+If you see a 404 or build error, check the Vercel build logs and ensure all environment variables are set.
