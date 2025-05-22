@@ -1,6 +1,6 @@
 # Agency: Installable AI Assistant for School Counselors
 
-**Agency** is an installable, AI-powered assistant designed to reduce the administrative burden on school counselors. By automating repetitive tasks, centralizing fragmented data, and surfacing actionable insights, Agency helps counselors spend more time supporting students and less time on paperwork.
+**Agency** is an installable, modular AI assistant for school counselors. It automates admin tasks, centralizes student data, flags at-risk students, and enables secure, consent-based data sharing with external providers. Agency is privacy-first, FIPPA-compliant, and designed for real-world counselor workflows. The system is built with a modular, service-oriented architecture for easy extension and integration. Core modules include task automation, risk assessment, data integration, communication, documentation standardization, proactive support, and privacy/consent management.
 
 ---
 
@@ -37,20 +37,19 @@ By leveraging AI (NLP and ML), Agency:
 - Flags at-risk students and suggests interventions
 - Enables secure, consent-based data sharing with external partners
 
-> “There’s so much that school counselors do… I feel that I’ve never done enough and always have work hanging over my head.”  
+> "There's so much that school counselors do... I feel that I've never done enough and always have work hanging over my head."  
 > - [reddit.com/r/schoolcounseling](https://www.reddit.com/r/schoolcounseling)
 
 ---
 
 ## Tech Stack
 
-- **Frontend:** React (Next.js), Vercel deployment for rapid prototyping
-- **Backend:** Node.js/Express API
-- **Database:** MongoDB (document-based, flexible)
-- **AI/Automation:** Python microservices (NLP, reminders, risk flagging)
-- **Integrations:** RESTful APIs/webhooks (MyEdBC, EHRs, email/calendar)
-- **Security:** OAuth2 authentication, FIPPA-compliant, encrypted storage
-- **Mobile Access:** Responsive web app, optional PWA for offline/field use
+- **Frontend:** Next.js (React, TypeScript), Tailwind CSS
+- **Backend:** Node.js (TypeScript, Express)
+- **Database:** MongoDB Atlas
+- **AI/Automation:** Python (Flask microservices for NLP, risk assessment, automation)
+- **Key Modules:** Task Automation, Risk Assessment, Data Integration, Communication Hub, Consent & Privacy Manager, Documentation Standardizer, Proactive Support
+- **Security:** OAuth2, JWT, encrypted storage, audit logs
 
 ---
 
@@ -69,7 +68,7 @@ By leveraging AI (NLP and ML), Agency:
 ## Value Proposition
 
 - **Not just another web portal:**  
-  Agency is an installable agent that works directly on counselors’ computers, integrating seamlessly with existing workflows and local systems.
+  Agency is an installable agent that works directly on counselors' computers, integrating seamlessly with existing workflows and local systems.
 - **Privacy-first:**  
   Data is encrypted, stored in Canada (FIPPA compliant), with user-level consent and full audit logging.
 - **Integration-ready:**  
@@ -250,7 +249,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Research-Backed Approach
 
-Agency’s design and features are informed by extensive research and real-world feedback from school counselors and social workers. For more context, see the included [research summaries](./docs/research.md) and [user stories](./docs/user_stories.md).
+Agency's design and features are informed by extensive research and real-world feedback from school counselors and social workers. For more context, see the included [research summaries](./docs/research.md) and [user stories](./docs/user_stories.md).
 
 ---
 
