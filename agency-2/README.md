@@ -88,7 +88,7 @@ agency-2/
 
 1. Navigate to the frontend directory:
    ```bash
-   cd frontend
+   cd ../frontend
    ```
 
 2. Install dependencies:
@@ -100,6 +100,8 @@ agency-2/
    ```bash
    npm run dev
    ```
+
+The app will be available at [http://localhost:3000](http://localhost:3000) (frontend and API).
 
 ## Features
 

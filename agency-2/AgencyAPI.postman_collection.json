@@ -16,13 +16,13 @@
               "method": "POST",
               "header": [{ "key": "Content-Type", "value": "application/json" }],
               "body": { "mode": "raw", "raw": "{\n  \"firstName\": \"Jane\",\n  \"lastName\": \"Doe\",\n  \"grade\": \"11\"\n}" },
-              "url": { "raw": "http://localhost:5003/api/students", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "students"] }
+              "url": { "raw": "http://localhost:3000/api/students", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "students"] }
             }
           },
-          { "name": "Get All Students", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/students", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "students"] } } },
-          { "name": "Get Student by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/students/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "students", ":id"] } } },
-          { "name": "Update Student", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"grade\": \"12\"\n}" }, "url": { "raw": "http://localhost:5003/api/students/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "students", ":id"] } } },
-          { "name": "Delete Student", "request": { "method": "DELETE", "url": { "raw": "http://localhost:5003/api/students/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "students", ":id"] } } }
+          { "name": "Get All Students", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/students", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "students"] } } },
+          { "name": "Get Student by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/students/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "students", ":id"] } } },
+          { "name": "Update Student", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"grade\": \"12\"\n}" }, "url": { "raw": "http://localhost:3000/api/students/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "students", ":id"] } } },
+          { "name": "Delete Student", "request": { "method": "DELETE", "url": { "raw": "http://localhost:3000/api/students/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "students", ":id"] } } }
         ]
       },
 
@@ -35,13 +35,13 @@
               "method": "POST",
               "header": [{ "key": "Content-Type", "value": "application/json" }],
               "body": { "mode": "raw", "raw": "{\n  \"name\": \"Ms. Lee\",\n  \"email\": \"lee@school.edu\",\n  \"role\": \"counselor\"\n}" },
-              "url": { "raw": "http://localhost:5003/api/counselors", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "counselors"] }
+              "url": { "raw": "http://localhost:3000/api/counselors", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "counselors"] }
             }
           },
-          { "name": "Get All Counselors", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/counselors", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "counselors"] } } },
-          { "name": "Get Counselor by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/counselors/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "counselors", ":id"] } } },
-          { "name": "Update Counselor", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"role\": \"lead counselor\"\n}" }, "url": { "raw": "http://localhost:5003/api/counselors/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "counselors", ":id"] } } },
-          { "name": "Delete Counselor", "request": { "method": "DELETE", "url": { "raw": "http://localhost:5003/api/counselors/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "counselors", ":id"] } } }
+          { "name": "Get All Counselors", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/counselors", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "counselors"] } } },
+          { "name": "Get Counselor by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/counselors/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "counselors", ":id"] } } },
+          { "name": "Update Counselor", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"role\": \"lead counselor\"\n}" }, "url": { "raw": "http://localhost:3000/api/counselors/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "counselors", ":id"] } } },
+          { "name": "Delete Counselor", "request": { "method": "DELETE", "url": { "raw": "http://localhost:3000/api/counselors/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "counselors", ":id"] } } }
         ]
       },
 
@@ -54,13 +54,13 @@
               "method": "POST",
               "header": [{ "key": "Content-Type", "value": "application/json" }],
               "body": { "mode": "raw", "raw": "{\n  \"type\": \"meeting\",\n  \"date\": \"2024-05-20T10:00:00Z\",\n  \"notes\": \"Initial meeting\"\n}" },
-              "url": { "raw": "http://localhost:5003/api/events", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "events"] }
+              "url": { "raw": "http://localhost:3000/api/events", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "events"] }
             }
           },
-          { "name": "Get All Events", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/events", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "events"] } } },
-          { "name": "Get Event by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/events/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "events", ":id"] } } },
-          { "name": "Update Event", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"notes\": \"Updated notes\"\n}" }, "url": { "raw": "http://localhost:5003/api/events/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "events", ":id"] } } },
-          { "name": "Delete Event", "request": { "method": "DELETE", "url": { "raw": "http://localhost:5003/api/events/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "events", ":id"] } } }
+          { "name": "Get All Events", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/events", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "events"] } } },
+          { "name": "Get Event by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/events/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "events", ":id"] } } },
+          { "name": "Update Event", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"notes\": \"Updated notes\"\n}" }, "url": { "raw": "http://localhost:3000/api/events/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "events", ":id"] } } },
+          { "name": "Delete Event", "request": { "method": "DELETE", "url": { "raw": "http://localhost:3000/api/events/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "events", ":id"] } } }
         ]
       },
 
@@ -73,13 +73,13 @@
               "method": "POST",
               "header": [{ "key": "Content-Type", "value": "application/json" }],
               "body": { "mode": "raw", "raw": "{\n  \"type\": \"data_sharing\",\n  \"granted\": true,\n  \"grantedBy\": \"parent\",\n  \"date\": \"2024-05-20T10:00:00Z\"\n}" },
-              "url": { "raw": "http://localhost:5003/api/consents", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "consents"] }
+              "url": { "raw": "http://localhost:3000/api/consents", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "consents"] }
             }
           },
-          { "name": "Get All Consents", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/consents", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "consents"] } } },
-          { "name": "Get Consent by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/consents/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "consents", ":id"] } } },
-          { "name": "Update Consent", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"granted\": false\n}" }, "url": { "raw": "http://localhost:5003/api/consents/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "consents", ":id"] } } },
-          { "name": "Delete Consent", "request": { "method": "DELETE", "url": { "raw": "http://localhost:5003/api/consents/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "consents", ":id"] } } }
+          { "name": "Get All Consents", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/consents", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "consents"] } } },
+          { "name": "Get Consent by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/consents/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "consents", ":id"] } } },
+          { "name": "Update Consent", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"granted\": false\n}" }, "url": { "raw": "http://localhost:3000/api/consents/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "consents", ":id"] } } },
+          { "name": "Delete Consent", "request": { "method": "DELETE", "url": { "raw": "http://localhost:3000/api/consents/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "consents", ":id"] } } }
         ]
       },
 
@@ -92,13 +92,13 @@
               "method": "POST",
               "header": [{ "key": "Content-Type", "value": "application/json" }],
               "body": { "mode": "raw", "raw": "{\n  \"type\": \"email\",\n  \"content\": \"Welcome!\",\n  \"date\": \"2024-05-20T10:00:00Z\"\n}" },
-              "url": { "raw": "http://localhost:5003/api/communications", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "communications"] }
+              "url": { "raw": "http://localhost:3000/api/communications", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "communications"] }
             }
           },
-          { "name": "Get All Communications", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/communications", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "communications"] } } },
-          { "name": "Get Communication by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/communications/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "communications", ":id"] } } },
-          { "name": "Update Communication", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"content\": \"Updated message\"\n}" }, "url": { "raw": "http://localhost:5003/api/communications/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "communications", ":id"] } } },
-          { "name": "Delete Communication", "request": { "method": "DELETE", "url": { "raw": "http://localhost:5003/api/communications/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "communications", ":id"] } } }
+          { "name": "Get All Communications", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/communications", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "communications"] } } },
+          { "name": "Get Communication by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/communications/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "communications", ":id"] } } },
+          { "name": "Update Communication", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"content\": \"Updated message\"\n}" }, "url": { "raw": "http://localhost:3000/api/communications/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "communications", ":id"] } } },
+          { "name": "Delete Communication", "request": { "method": "DELETE", "url": { "raw": "http://localhost:3000/api/communications/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "communications", ":id"] } } }
         ]
       },
 
@@ -111,13 +111,13 @@
               "method": "POST",
               "header": [{ "key": "Content-Type", "value": "application/json" }],
               "body": { "mode": "raw", "raw": "{\n  \"action\": \"CREATE_STUDENT\",\n  \"user\": \"admin\",\n  \"details\": {\"student\": \"studentId\"},\n  \"target\": \"Student\",\n  \"targetId\": \"studentId\"\n}" },
-              "url": { "raw": "http://localhost:5003/api/audit-logs", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "audit-logs"] }
+              "url": { "raw": "http://localhost:3000/api/audit-logs", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "audit-logs"] }
             }
           },
-          { "name": "Get All Audit Logs", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/audit-logs", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "audit-logs"] } } },
-          { "name": "Get Audit Log by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/audit-logs/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "audit-logs", ":id"] } } },
-          { "name": "Update Audit Log", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"action\": \"UPDATE_STUDENT\"\n}" }, "url": { "raw": "http://localhost:5003/api/audit-logs/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "audit-logs", ":id"] } } },
-          { "name": "Delete Audit Log", "request": { "method": "DELETE", "url": { "raw": "http://localhost:5003/api/audit-logs/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "audit-logs", ":id"] } } }
+          { "name": "Get All Audit Logs", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/audit-logs", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "audit-logs"] } } },
+          { "name": "Get Audit Log by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/audit-logs/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "audit-logs", ":id"] } } },
+          { "name": "Update Audit Log", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"action\": \"UPDATE_STUDENT\"\n}" }, "url": { "raw": "http://localhost:3000/api/audit-logs/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "audit-logs", ":id"] } } },
+          { "name": "Delete Audit Log", "request": { "method": "DELETE", "url": { "raw": "http://localhost:3000/api/audit-logs/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "audit-logs", ":id"] } } }
         ]
       },
 
@@ -130,13 +130,13 @@
               "method": "POST",
               "header": [{ "key": "Content-Type", "value": "application/json" }],
               "body": { "mode": "raw", "raw": "{\n  \"type\": \"bullying\",\n  \"date\": \"2024-05-20T10:00:00Z\",\n  \"description\": \"Reported bullying incident\",\n  \"reportedBy\": \"teacher\",\n  \"resolved\": false\n}" },
-              "url": { "raw": "http://localhost:5003/api/incidents", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "incidents"] }
+              "url": { "raw": "http://localhost:3000/api/incidents", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "incidents"] }
             }
           },
-          { "name": "Get All Incidents", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/incidents", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "incidents"] } } },
-          { "name": "Get Incident by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/incidents/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "incidents", ":id"] } } },
-          { "name": "Update Incident", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"resolved\": true\n}" }, "url": { "raw": "http://localhost:5003/api/incidents/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "incidents", ":id"] } } },
-          { "name": "Delete Incident", "request": { "method": "DELETE", "url": { "raw": "http://localhost:5003/api/incidents/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "incidents", ":id"] } } }
+          { "name": "Get All Incidents", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/incidents", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "incidents"] } } },
+          { "name": "Get Incident by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/incidents/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "incidents", ":id"] } } },
+          { "name": "Update Incident", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"resolved\": true\n}" }, "url": { "raw": "http://localhost:3000/api/incidents/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "incidents", ":id"] } } },
+          { "name": "Delete Incident", "request": { "method": "DELETE", "url": { "raw": "http://localhost:3000/api/incidents/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "incidents", ":id"] } } }
         ]
       },
 
@@ -149,13 +149,13 @@
               "method": "POST",
               "header": [{ "key": "Content-Type", "value": "application/json" }],
               "body": { "mode": "raw", "raw": "{\n  \"type\": \"academic\",\n  \"date\": \"2024-05-20T10:00:00Z\",\n  \"score\": 85,\n  \"notes\": \"Math test\",\n  \"assessedBy\": \"Ms. Lee\"\n}" },
-              "url": { "raw": "http://localhost:5003/api/assessments", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "assessments"] }
+              "url": { "raw": "http://localhost:3000/api/assessments", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "assessments"] }
             }
           },
-          { "name": "Get All Assessments", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/assessments", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "assessments"] } } },
-          { "name": "Get Assessment by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:5003/api/assessments/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "assessments", ":id"] } } },
-          { "name": "Update Assessment", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"score\": 90\n}" }, "url": { "raw": "http://localhost:5003/api/assessments/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "assessments", ":id"] } } },
-          { "name": "Delete Assessment", "request": { "method": "DELETE", "url": { "raw": "http://localhost:5003/api/assessments/:id", "protocol": "http", "host": ["localhost"], "port": "5003", "path": ["api", "assessments", ":id"] } } }
+          { "name": "Get All Assessments", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/assessments", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "assessments"] } } },
+          { "name": "Get Assessment by ID", "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/assessments/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "assessments", ":id"] } } },
+          { "name": "Update Assessment", "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"score\": 90\n}" }, "url": { "raw": "http://localhost:3000/api/assessments/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "assessments", ":id"] } } },
+          { "name": "Delete Assessment", "request": { "method": "DELETE", "url": { "raw": "http://localhost:3000/api/assessments/:id", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["api", "assessments", ":id"] } } }
         ]
       }
     ]

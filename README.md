@@ -219,7 +219,7 @@ cd frontend
 npm run dev
 ```
 
-The app will be available at [http://localhost:3000](http://localhost:3000) (frontend) and [http://localhost:5003](http://localhost:5003) (backend).
+The app will be available at [http://localhost:3000](http://localhost:3000) (frontend and API).
 
 ---
 
