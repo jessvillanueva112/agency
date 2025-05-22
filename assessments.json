@@ -1,0 +1,2502 @@
+[
+  {
+    "_id": "682c10d5d1abe0fbb388d459",
+    "student": "682c107ad1abe0fbb388c92d",
+    "type": "academic",
+    "date": "2024-02-14T08:00:00.000Z",
+    "score": 69,
+    "notes": "Assessment notes 0 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d5d1abe0fbb388d45b",
+    "student": "682c107ad1abe0fbb388c92d",
+    "type": "behavioral",
+    "date": "2024-03-25T07:00:00.000Z",
+    "score": 89,
+    "notes": "Assessment notes 1 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d5d1abe0fbb388d45d",
+    "student": "682c1087d1abe0fbb388cabd",
+    "type": "academic",
+    "date": "2024-07-26T07:00:00.000Z",
+    "score": 77,
+    "notes": "Assessment notes 2 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d5d1abe0fbb388d45f",
+    "student": "682c1083d1abe0fbb388ca51",
+    "type": "behavioral",
+    "date": "2024-07-15T07:00:00.000Z",
+    "score": 94,
+    "notes": "Assessment notes 3 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d5d1abe0fbb388d461",
+    "student": "682c107dd1abe0fbb388c985",
+    "type": "academic",
+    "date": "2024-04-18T07:00:00.000Z",
+    "score": 98,
+    "notes": "Assessment notes 4 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d5d1abe0fbb388d463",
+    "student": "682c107dd1abe0fbb388c97b",
+    "type": "academic",
+    "date": "2024-02-11T08:00:00.000Z",
+    "score": 82,
+    "notes": "Assessment notes 5 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d5d1abe0fbb388d465",
+    "student": "682c1081d1abe0fbb388ca0d",
+    "type": "academic",
+    "date": "2024-02-24T08:00:00.000Z",
+    "score": 92,
+    "notes": "Assessment notes 6 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d5d1abe0fbb388d467",
+    "student": "682c1087d1abe0fbb388cab3",
+    "type": "academic",
+    "date": "2024-06-06T07:00:00.000Z",
+    "score": 69,
+    "notes": "Assessment notes 7 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d5d1abe0fbb388d469",
+    "student": "682c108ad1abe0fbb388cb2d",
+    "type": "behavioral",
+    "date": "2024-10-05T07:00:00.000Z",
+    "score": 82,
+    "notes": "Assessment notes 8 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d6d1abe0fbb388d46b",
+    "student": "682c1079d1abe0fbb388c911",
+    "type": "academic",
+    "date": "2024-08-13T07:00:00.000Z",
+    "score": 63,
+    "notes": "Assessment notes 9 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d6d1abe0fbb388d46d",
+    "student": "682c107ad1abe0fbb388c921",
+    "type": "academic",
+    "date": "2024-04-05T07:00:00.000Z",
+    "score": 71,
+    "notes": "Assessment notes 10 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d6d1abe0fbb388d46f",
+    "student": "682c1087d1abe0fbb388cab3",
+    "type": "behavioral",
+    "date": "2024-10-23T07:00:00.000Z",
+    "score": 74,
+    "notes": "Assessment notes 11 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d6d1abe0fbb388d471",
+    "student": "682c107ed1abe0fbb388c999",
+    "type": "behavioral",
+    "date": "2024-01-05T08:00:00.000Z",
+    "score": 95,
+    "notes": "Assessment notes 12 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d6d1abe0fbb388d473",
+    "student": "682c107dd1abe0fbb388c98f",
+    "type": "academic",
+    "date": "2024-11-20T08:00:00.000Z",
+    "score": 75,
+    "notes": "Assessment notes 13 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d6d1abe0fbb388d475",
+    "student": "682c107ed1abe0fbb388c9b5",
+    "type": "behavioral",
+    "date": "2024-12-13T08:00:00.000Z",
+    "score": 74,
+    "notes": "Assessment notes 14 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d6d1abe0fbb388d477",
+    "student": "682c1085d1abe0fbb388ca8d",
+    "type": "academic",
+    "date": "2024-02-15T08:00:00.000Z",
+    "score": 84,
+    "notes": "Assessment notes 15 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d6d1abe0fbb388d479",
+    "student": "682c1084d1abe0fbb388ca6d",
+    "type": "behavioral",
+    "date": "2024-04-06T07:00:00.000Z",
+    "score": 81,
+    "notes": "Assessment notes 16 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d6d1abe0fbb388d47b",
+    "student": "682c1080d1abe0fbb388c9e1",
+    "type": "academic",
+    "date": "2024-12-14T08:00:00.000Z",
+    "score": 76,
+    "notes": "Assessment notes 17 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d6d1abe0fbb388d47d",
+    "student": "682c1086d1abe0fbb388ca95",
+    "type": "behavioral",
+    "date": "2024-08-10T07:00:00.000Z",
+    "score": 92,
+    "notes": "Assessment notes 18 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d6d1abe0fbb388d47f",
+    "student": "682c1079d1abe0fbb388c919",
+    "type": "behavioral",
+    "date": "2024-02-12T08:00:00.000Z",
+    "score": 98,
+    "notes": "Assessment notes 19 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d6d1abe0fbb388d481",
+    "student": "682c107dd1abe0fbb388c983",
+    "type": "behavioral",
+    "date": "2024-04-06T07:00:00.000Z",
+    "score": 84,
+    "notes": "Assessment notes 20 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d6d1abe0fbb388d483",
+    "student": "682c1089d1abe0fbb388cafb",
+    "type": "academic",
+    "date": "2024-09-10T07:00:00.000Z",
+    "score": 81,
+    "notes": "Assessment notes 21 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d6d1abe0fbb388d485",
+    "student": "682c107ed1abe0fbb388c9ab",
+    "type": "behavioral",
+    "date": "2024-06-05T07:00:00.000Z",
+    "score": 67,
+    "notes": "Assessment notes 22 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d6d1abe0fbb388d487",
+    "student": "682c1087d1abe0fbb388cacb",
+    "type": "academic",
+    "date": "2024-07-13T07:00:00.000Z",
+    "score": 76,
+    "notes": "Assessment notes 23 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d7d1abe0fbb388d489",
+    "student": "682c107ad1abe0fbb388c935",
+    "type": "academic",
+    "date": "2024-06-22T07:00:00.000Z",
+    "score": 71,
+    "notes": "Assessment notes 24 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d7d1abe0fbb388d48b",
+    "student": "682c1080d1abe0fbb388c9e3",
+    "type": "behavioral",
+    "date": "2024-11-13T08:00:00.000Z",
+    "score": 93,
+    "notes": "Assessment notes 25 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d7d1abe0fbb388d48d",
+    "student": "682c107cd1abe0fbb388c96b",
+    "type": "behavioral",
+    "date": "2024-02-20T08:00:00.000Z",
+    "score": 66,
+    "notes": "Assessment notes 26 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d7d1abe0fbb388d48f",
+    "student": "682c1088d1abe0fbb388cad7",
+    "type": "academic",
+    "date": "2024-11-05T08:00:00.000Z",
+    "score": 100,
+    "notes": "Assessment notes 27 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d7d1abe0fbb388d491",
+    "student": "682c108ad1abe0fbb388cb15",
+    "type": "academic",
+    "date": "2024-12-25T08:00:00.000Z",
+    "score": 80,
+    "notes": "Assessment notes 28 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d7d1abe0fbb388d493",
+    "student": "682c1089d1abe0fbb388caf1",
+    "type": "academic",
+    "date": "2024-04-18T07:00:00.000Z",
+    "score": 91,
+    "notes": "Assessment notes 29 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d7d1abe0fbb388d495",
+    "student": "682c107ad1abe0fbb388c925",
+    "type": "behavioral",
+    "date": "2024-07-23T07:00:00.000Z",
+    "score": 69,
+    "notes": "Assessment notes 30 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d7d1abe0fbb388d497",
+    "student": "682c1082d1abe0fbb388ca17",
+    "type": "academic",
+    "date": "2024-01-15T08:00:00.000Z",
+    "score": 61,
+    "notes": "Assessment notes 31 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d7d1abe0fbb388d499",
+    "student": "682c1083d1abe0fbb388ca45",
+    "type": "behavioral",
+    "date": "2024-12-09T08:00:00.000Z",
+    "score": 79,
+    "notes": "Assessment notes 32 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d7d1abe0fbb388d49b",
+    "student": "682c1085d1abe0fbb388ca7d",
+    "type": "behavioral",
+    "date": "2024-02-13T08:00:00.000Z",
+    "score": 76,
+    "notes": "Assessment notes 33 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d7d1abe0fbb388d49d",
+    "student": "682c1085d1abe0fbb388ca87",
+    "type": "academic",
+    "date": "2024-07-18T07:00:00.000Z",
+    "score": 97,
+    "notes": "Assessment notes 34 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d7d1abe0fbb388d49f",
+    "student": "682c107ed1abe0fbb388c9a3",
+    "type": "behavioral",
+    "date": "2024-02-27T08:00:00.000Z",
+    "score": 61,
+    "notes": "Assessment notes 35 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d7d1abe0fbb388d4a1",
+    "student": "682c107cd1abe0fbb388c96d",
+    "type": "academic",
+    "date": "2024-01-13T08:00:00.000Z",
+    "score": 76,
+    "notes": "Assessment notes 36 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d8d1abe0fbb388d4a3",
+    "student": "682c1080d1abe0fbb388c9d9",
+    "type": "behavioral",
+    "date": "2024-12-20T08:00:00.000Z",
+    "score": 93,
+    "notes": "Assessment notes 37 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d8d1abe0fbb388d4a5",
+    "student": "682c107cd1abe0fbb388c969",
+    "type": "behavioral",
+    "date": "2024-08-26T07:00:00.000Z",
+    "score": 64,
+    "notes": "Assessment notes 38 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d8d1abe0fbb388d4a7",
+    "student": "682c107dd1abe0fbb388c977",
+    "type": "academic",
+    "date": "2024-03-26T07:00:00.000Z",
+    "score": 63,
+    "notes": "Assessment notes 39 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d8d1abe0fbb388d4a9",
+    "student": "682c1089d1abe0fbb388cb07",
+    "type": "academic",
+    "date": "2024-01-17T08:00:00.000Z",
+    "score": 100,
+    "notes": "Assessment notes 40 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d8d1abe0fbb388d4ab",
+    "student": "682c1084d1abe0fbb388ca63",
+    "type": "academic",
+    "date": "2024-10-01T07:00:00.000Z",
+    "score": 80,
+    "notes": "Assessment notes 41 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d8d1abe0fbb388d4ad",
+    "student": "682c108bd1abe0fbb388cb31",
+    "type": "academic",
+    "date": "2024-01-08T08:00:00.000Z",
+    "score": 76,
+    "notes": "Assessment notes 42 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d8d1abe0fbb388d4af",
+    "student": "682c1082d1abe0fbb388ca17",
+    "type": "behavioral",
+    "date": "2024-04-22T07:00:00.000Z",
+    "score": 62,
+    "notes": "Assessment notes 43 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d8d1abe0fbb388d4b1",
+    "student": "682c1085d1abe0fbb388ca85",
+    "type": "academic",
+    "date": "2024-09-23T07:00:00.000Z",
+    "score": 86,
+    "notes": "Assessment notes 44 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d8d1abe0fbb388d4b3",
+    "student": "682c1081d1abe0fbb388ca05",
+    "type": "academic",
+    "date": "2024-06-26T07:00:00.000Z",
+    "score": 72,
+    "notes": "Assessment notes 45 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d8d1abe0fbb388d4b5",
+    "student": "682c1083d1abe0fbb388ca4f",
+    "type": "academic",
+    "date": "2024-12-27T08:00:00.000Z",
+    "score": 69,
+    "notes": "Assessment notes 46 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d8d1abe0fbb388d4b7",
+    "student": "682c1084d1abe0fbb388ca6f",
+    "type": "behavioral",
+    "date": "2024-07-02T07:00:00.000Z",
+    "score": 97,
+    "notes": "Assessment notes 47 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d8d1abe0fbb388d4b9",
+    "student": "682c107fd1abe0fbb388c9bd",
+    "type": "academic",
+    "date": "2024-08-24T07:00:00.000Z",
+    "score": 70,
+    "notes": "Assessment notes 48 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d8d1abe0fbb388d4bb",
+    "student": "682c108ad1abe0fbb388cb2b",
+    "type": "behavioral",
+    "date": "2024-03-09T08:00:00.000Z",
+    "score": 84,
+    "notes": "Assessment notes 49 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d8d1abe0fbb388d4bd",
+    "student": "682c1086d1abe0fbb388caaf",
+    "type": "academic",
+    "date": "2024-05-17T07:00:00.000Z",
+    "score": 65,
+    "notes": "Assessment notes 50 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d8d1abe0fbb388d4bf",
+    "student": "682c107cd1abe0fbb388c96d",
+    "type": "academic",
+    "date": "2024-12-28T08:00:00.000Z",
+    "score": 87,
+    "notes": "Assessment notes 51 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4c1",
+    "student": "682c1089d1abe0fbb388caf9",
+    "type": "academic",
+    "date": "2024-03-07T08:00:00.000Z",
+    "score": 98,
+    "notes": "Assessment notes 52 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4c3",
+    "student": "682c1086d1abe0fbb388caa9",
+    "type": "academic",
+    "date": "2024-08-18T07:00:00.000Z",
+    "score": 71,
+    "notes": "Assessment notes 53 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4c5",
+    "student": "682c1085d1abe0fbb388ca7f",
+    "type": "behavioral",
+    "date": "2024-12-15T08:00:00.000Z",
+    "score": 76,
+    "notes": "Assessment notes 54 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4c7",
+    "student": "682c107cd1abe0fbb388c973",
+    "type": "behavioral",
+    "date": "2024-08-09T07:00:00.000Z",
+    "score": 74,
+    "notes": "Assessment notes 55 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4c9",
+    "student": "682c1079d1abe0fbb388c90f",
+    "type": "academic",
+    "date": "2024-01-11T08:00:00.000Z",
+    "score": 74,
+    "notes": "Assessment notes 56 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4cb",
+    "student": "682c108bd1abe0fbb388cb4b",
+    "type": "academic",
+    "date": "2024-09-22T07:00:00.000Z",
+    "score": 68,
+    "notes": "Assessment notes 57 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4cd",
+    "student": "682c107ad1abe0fbb388c931",
+    "type": "behavioral",
+    "date": "2024-02-03T08:00:00.000Z",
+    "score": 66,
+    "notes": "Assessment notes 58 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4cf",
+    "student": "682c107cd1abe0fbb388c95d",
+    "type": "academic",
+    "date": "2024-12-25T08:00:00.000Z",
+    "score": 97,
+    "notes": "Assessment notes 59 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4d1",
+    "student": "682c107ad1abe0fbb388c91b",
+    "type": "academic",
+    "date": "2024-12-07T08:00:00.000Z",
+    "score": 74,
+    "notes": "Assessment notes 60 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4d3",
+    "student": "682c108ad1abe0fbb388cb19",
+    "type": "academic",
+    "date": "2024-02-12T08:00:00.000Z",
+    "score": 62,
+    "notes": "Assessment notes 61 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4d5",
+    "student": "682c107bd1abe0fbb388c937",
+    "type": "behavioral",
+    "date": "2024-05-04T07:00:00.000Z",
+    "score": 71,
+    "notes": "Assessment notes 62 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4d7",
+    "student": "682c1088d1abe0fbb388cae9",
+    "type": "academic",
+    "date": "2024-08-19T07:00:00.000Z",
+    "score": 81,
+    "notes": "Assessment notes 63 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4d9",
+    "student": "682c1082d1abe0fbb388ca2b",
+    "type": "behavioral",
+    "date": "2024-06-05T07:00:00.000Z",
+    "score": 76,
+    "notes": "Assessment notes 64 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4db",
+    "student": "682c1080d1abe0fbb388c9df",
+    "type": "behavioral",
+    "date": "2024-06-13T07:00:00.000Z",
+    "score": 93,
+    "notes": "Assessment notes 65 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4dd",
+    "student": "682c108bd1abe0fbb388cb49",
+    "type": "behavioral",
+    "date": "2024-09-12T07:00:00.000Z",
+    "score": 62,
+    "notes": "Assessment notes 66 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10d9d1abe0fbb388d4df",
+    "student": "682c1087d1abe0fbb388cab3",
+    "type": "behavioral",
+    "date": "2024-11-11T08:00:00.000Z",
+    "score": 61,
+    "notes": "Assessment notes 67 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4e1",
+    "student": "682c108bd1abe0fbb388cb3f",
+    "type": "behavioral",
+    "date": "2024-03-04T08:00:00.000Z",
+    "score": 75,
+    "notes": "Assessment notes 68 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4e3",
+    "student": "682c1083d1abe0fbb388ca4b",
+    "type": "academic",
+    "date": "2024-08-15T07:00:00.000Z",
+    "score": 73,
+    "notes": "Assessment notes 69 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4e5",
+    "student": "682c1081d1abe0fbb388ca03",
+    "type": "academic",
+    "date": "2024-07-25T07:00:00.000Z",
+    "score": 69,
+    "notes": "Assessment notes 70 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4e7",
+    "student": "682c1079d1abe0fbb388c90d",
+    "type": "behavioral",
+    "date": "2024-04-22T07:00:00.000Z",
+    "score": 75,
+    "notes": "Assessment notes 71 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4e9",
+    "student": "682c107cd1abe0fbb388c973",
+    "type": "behavioral",
+    "date": "2024-04-22T07:00:00.000Z",
+    "score": 65,
+    "notes": "Assessment notes 72 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4eb",
+    "student": "682c107ad1abe0fbb388c92f",
+    "type": "behavioral",
+    "date": "2024-12-14T08:00:00.000Z",
+    "score": 75,
+    "notes": "Assessment notes 73 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4ed",
+    "student": "682c107bd1abe0fbb388c94b",
+    "type": "academic",
+    "date": "2024-06-21T07:00:00.000Z",
+    "score": 62,
+    "notes": "Assessment notes 74 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4ef",
+    "student": "682c1081d1abe0fbb388ca13",
+    "type": "academic",
+    "date": "2024-07-03T07:00:00.000Z",
+    "score": 75,
+    "notes": "Assessment notes 75 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4f1",
+    "student": "682c1088d1abe0fbb388cae9",
+    "type": "academic",
+    "date": "2024-10-25T07:00:00.000Z",
+    "score": 78,
+    "notes": "Assessment notes 76 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4f3",
+    "student": "682c1083d1abe0fbb388ca49",
+    "type": "behavioral",
+    "date": "2024-09-10T07:00:00.000Z",
+    "score": 90,
+    "notes": "Assessment notes 77 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4f5",
+    "student": "682c1085d1abe0fbb388ca81",
+    "type": "academic",
+    "date": "2024-03-26T07:00:00.000Z",
+    "score": 83,
+    "notes": "Assessment notes 78 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4f7",
+    "student": "682c107fd1abe0fbb388c9cb",
+    "type": "academic",
+    "date": "2024-09-05T07:00:00.000Z",
+    "score": 100,
+    "notes": "Assessment notes 79 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4f9",
+    "student": "682c107cd1abe0fbb388c963",
+    "type": "academic",
+    "date": "2024-04-11T07:00:00.000Z",
+    "score": 64,
+    "notes": "Assessment notes 80 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4fb",
+    "student": "682c108bd1abe0fbb388cb3f",
+    "type": "academic",
+    "date": "2024-07-12T07:00:00.000Z",
+    "score": 97,
+    "notes": "Assessment notes 81 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4fd",
+    "student": "682c107cd1abe0fbb388c95f",
+    "type": "academic",
+    "date": "2024-03-28T07:00:00.000Z",
+    "score": 100,
+    "notes": "Assessment notes 82 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d4ff",
+    "student": "682c1079d1abe0fbb388c907",
+    "type": "behavioral",
+    "date": "2024-10-07T07:00:00.000Z",
+    "score": 78,
+    "notes": "Assessment notes 83 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dad1abe0fbb388d501",
+    "student": "682c108bd1abe0fbb388cb47",
+    "type": "academic",
+    "date": "2024-10-14T07:00:00.000Z",
+    "score": 94,
+    "notes": "Assessment notes 84 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d503",
+    "student": "682c1081d1abe0fbb388c9f7",
+    "type": "behavioral",
+    "date": "2024-05-22T07:00:00.000Z",
+    "score": 92,
+    "notes": "Assessment notes 85 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d505",
+    "student": "682c107fd1abe0fbb388c9c7",
+    "type": "academic",
+    "date": "2024-01-17T08:00:00.000Z",
+    "score": 89,
+    "notes": "Assessment notes 86 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d507",
+    "student": "682c107dd1abe0fbb388c987",
+    "type": "academic",
+    "date": "2024-04-11T07:00:00.000Z",
+    "score": 84,
+    "notes": "Assessment notes 87 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d509",
+    "student": "682c1086d1abe0fbb388caab",
+    "type": "behavioral",
+    "date": "2024-05-25T07:00:00.000Z",
+    "score": 78,
+    "notes": "Assessment notes 88 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d50b",
+    "student": "682c1081d1abe0fbb388c9fd",
+    "type": "academic",
+    "date": "2024-04-18T07:00:00.000Z",
+    "score": 98,
+    "notes": "Assessment notes 89 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d50d",
+    "student": "682c1088d1abe0fbb388cad1",
+    "type": "behavioral",
+    "date": "2024-10-25T07:00:00.000Z",
+    "score": 93,
+    "notes": "Assessment notes 90 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d50f",
+    "student": "682c108bd1abe0fbb388cb2f",
+    "type": "behavioral",
+    "date": "2024-11-28T08:00:00.000Z",
+    "score": 72,
+    "notes": "Assessment notes 91 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d511",
+    "student": "682c1085d1abe0fbb388ca7d",
+    "type": "academic",
+    "date": "2024-08-27T07:00:00.000Z",
+    "score": 76,
+    "notes": "Assessment notes 92 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d513",
+    "student": "682c108bd1abe0fbb388cb49",
+    "type": "behavioral",
+    "date": "2024-10-17T07:00:00.000Z",
+    "score": 97,
+    "notes": "Assessment notes 93 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d515",
+    "student": "682c108bd1abe0fbb388cb3f",
+    "type": "behavioral",
+    "date": "2024-12-10T08:00:00.000Z",
+    "score": 86,
+    "notes": "Assessment notes 94 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d517",
+    "student": "682c107dd1abe0fbb388c991",
+    "type": "academic",
+    "date": "2024-10-12T07:00:00.000Z",
+    "score": 78,
+    "notes": "Assessment notes 95 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d519",
+    "student": "682c1086d1abe0fbb388ca97",
+    "type": "academic",
+    "date": "2024-01-25T08:00:00.000Z",
+    "score": 65,
+    "notes": "Assessment notes 96 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d51b",
+    "student": "682c108bd1abe0fbb388cb41",
+    "type": "behavioral",
+    "date": "2024-07-02T07:00:00.000Z",
+    "score": 64,
+    "notes": "Assessment notes 97 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d51d",
+    "student": "682c1084d1abe0fbb388ca61",
+    "type": "behavioral",
+    "date": "2024-11-23T08:00:00.000Z",
+    "score": 97,
+    "notes": "Assessment notes 98 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d51f",
+    "student": "682c1082d1abe0fbb388ca15",
+    "type": "academic",
+    "date": "2024-05-23T07:00:00.000Z",
+    "score": 74,
+    "notes": "Assessment notes 99 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dbd1abe0fbb388d521",
+    "student": "682c1087d1abe0fbb388cabd",
+    "type": "behavioral",
+    "date": "2024-07-15T07:00:00.000Z",
+    "score": 82,
+    "notes": "Assessment notes 100 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d523",
+    "student": "682c107ad1abe0fbb388c92d",
+    "type": "behavioral",
+    "date": "2024-12-15T08:00:00.000Z",
+    "score": 100,
+    "notes": "Assessment notes 101 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d525",
+    "student": "682c1084d1abe0fbb388ca6d",
+    "type": "academic",
+    "date": "2024-01-21T08:00:00.000Z",
+    "score": 71,
+    "notes": "Assessment notes 102 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d527",
+    "student": "682c107dd1abe0fbb388c98f",
+    "type": "academic",
+    "date": "2024-10-02T07:00:00.000Z",
+    "score": 62,
+    "notes": "Assessment notes 103 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d529",
+    "student": "682c1089d1abe0fbb388cafb",
+    "type": "academic",
+    "date": "2024-08-09T07:00:00.000Z",
+    "score": 83,
+    "notes": "Assessment notes 104 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d52b",
+    "student": "682c107bd1abe0fbb388c93d",
+    "type": "academic",
+    "date": "2024-12-06T08:00:00.000Z",
+    "score": 88,
+    "notes": "Assessment notes 105 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d52d",
+    "student": "682c1080d1abe0fbb388c9df",
+    "type": "academic",
+    "date": "2024-01-02T08:00:00.000Z",
+    "score": 81,
+    "notes": "Assessment notes 106 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d52f",
+    "student": "682c1081d1abe0fbb388ca0f",
+    "type": "academic",
+    "date": "2024-10-03T07:00:00.000Z",
+    "score": 90,
+    "notes": "Assessment notes 107 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d531",
+    "student": "682c107ed1abe0fbb388c99f",
+    "type": "behavioral",
+    "date": "2024-02-04T08:00:00.000Z",
+    "score": 66,
+    "notes": "Assessment notes 108 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d533",
+    "student": "682c1086d1abe0fbb388caa9",
+    "type": "behavioral",
+    "date": "2024-12-16T08:00:00.000Z",
+    "score": 89,
+    "notes": "Assessment notes 109 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d535",
+    "student": "682c107ed1abe0fbb388c9af",
+    "type": "academic",
+    "date": "2024-04-23T07:00:00.000Z",
+    "score": 76,
+    "notes": "Assessment notes 110 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d537",
+    "student": "682c107fd1abe0fbb388c9cd",
+    "type": "academic",
+    "date": "2024-01-06T08:00:00.000Z",
+    "score": 74,
+    "notes": "Assessment notes 111 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d539",
+    "student": "682c107bd1abe0fbb388c94d",
+    "type": "behavioral",
+    "date": "2024-12-18T08:00:00.000Z",
+    "score": 62,
+    "notes": "Assessment notes 112 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d53b",
+    "student": "682c108bd1abe0fbb388cb4f",
+    "type": "behavioral",
+    "date": "2024-04-17T07:00:00.000Z",
+    "score": 87,
+    "notes": "Assessment notes 113 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d53d",
+    "student": "682c1086d1abe0fbb388ca99",
+    "type": "academic",
+    "date": "2024-06-27T07:00:00.000Z",
+    "score": 96,
+    "notes": "Assessment notes 114 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d53f",
+    "student": "682c1088d1abe0fbb388cad3",
+    "type": "academic",
+    "date": "2024-12-11T08:00:00.000Z",
+    "score": 94,
+    "notes": "Assessment notes 115 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dcd1abe0fbb388d541",
+    "student": "682c107bd1abe0fbb388c949",
+    "type": "behavioral",
+    "date": "2024-09-05T07:00:00.000Z",
+    "score": 94,
+    "notes": "Assessment notes 116 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ddd1abe0fbb388d543",
+    "student": "682c1088d1abe0fbb388cad7",
+    "type": "behavioral",
+    "date": "2024-12-11T08:00:00.000Z",
+    "score": 72,
+    "notes": "Assessment notes 117 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ddd1abe0fbb388d545",
+    "student": "682c1082d1abe0fbb388ca19",
+    "type": "behavioral",
+    "date": "2024-07-25T07:00:00.000Z",
+    "score": 63,
+    "notes": "Assessment notes 118 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ddd1abe0fbb388d547",
+    "student": "682c107ad1abe0fbb388c921",
+    "type": "behavioral",
+    "date": "2024-12-23T08:00:00.000Z",
+    "score": 80,
+    "notes": "Assessment notes 119 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ddd1abe0fbb388d549",
+    "student": "682c107fd1abe0fbb388c9c7",
+    "type": "behavioral",
+    "date": "2024-05-28T07:00:00.000Z",
+    "score": 74,
+    "notes": "Assessment notes 120 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ddd1abe0fbb388d54b",
+    "student": "682c107ad1abe0fbb388c92d",
+    "type": "behavioral",
+    "date": "2024-05-25T07:00:00.000Z",
+    "score": 83,
+    "notes": "Assessment notes 121 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ddd1abe0fbb388d54d",
+    "student": "682c1082d1abe0fbb388ca29",
+    "type": "academic",
+    "date": "2024-10-09T07:00:00.000Z",
+    "score": 94,
+    "notes": "Assessment notes 122 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ddd1abe0fbb388d54f",
+    "student": "682c107dd1abe0fbb388c981",
+    "type": "academic",
+    "date": "2024-10-11T07:00:00.000Z",
+    "score": 64,
+    "notes": "Assessment notes 123 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ddd1abe0fbb388d551",
+    "student": "682c107cd1abe0fbb388c96b",
+    "type": "behavioral",
+    "date": "2024-11-17T08:00:00.000Z",
+    "score": 83,
+    "notes": "Assessment notes 124 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ddd1abe0fbb388d553",
+    "student": "682c1081d1abe0fbb388c9f5",
+    "type": "academic",
+    "date": "2024-03-01T08:00:00.000Z",
+    "score": 95,
+    "notes": "Assessment notes 125 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ddd1abe0fbb388d555",
+    "student": "682c1088d1abe0fbb388cad1",
+    "type": "behavioral",
+    "date": "2024-01-24T08:00:00.000Z",
+    "score": 98,
+    "notes": "Assessment notes 126 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ddd1abe0fbb388d557",
+    "student": "682c1083d1abe0fbb388ca45",
+    "type": "behavioral",
+    "date": "2024-08-11T07:00:00.000Z",
+    "score": 84,
+    "notes": "Assessment notes 127 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ddd1abe0fbb388d559",
+    "student": "682c1083d1abe0fbb388ca4b",
+    "type": "behavioral",
+    "date": "2024-06-03T07:00:00.000Z",
+    "score": 82,
+    "notes": "Assessment notes 128 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ddd1abe0fbb388d55b",
+    "student": "682c1088d1abe0fbb388cad1",
+    "type": "academic",
+    "date": "2024-06-26T07:00:00.000Z",
+    "score": 76,
+    "notes": "Assessment notes 129 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ddd1abe0fbb388d55d",
+    "student": "682c1088d1abe0fbb388cae1",
+    "type": "behavioral",
+    "date": "2024-10-16T07:00:00.000Z",
+    "score": 71,
+    "notes": "Assessment notes 130 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ded1abe0fbb388d55f",
+    "student": "682c108ad1abe0fbb388cb1b",
+    "type": "academic",
+    "date": "2024-07-23T07:00:00.000Z",
+    "score": 73,
+    "notes": "Assessment notes 131 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ded1abe0fbb388d561",
+    "student": "682c107bd1abe0fbb388c93f",
+    "type": "behavioral",
+    "date": "2024-11-07T08:00:00.000Z",
+    "score": 88,
+    "notes": "Assessment notes 132 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ded1abe0fbb388d563",
+    "student": "682c108bd1abe0fbb388cb4b",
+    "type": "behavioral",
+    "date": "2024-07-25T07:00:00.000Z",
+    "score": 85,
+    "notes": "Assessment notes 133 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ded1abe0fbb388d565",
+    "student": "682c107bd1abe0fbb388c93f",
+    "type": "behavioral",
+    "date": "2024-02-06T08:00:00.000Z",
+    "score": 79,
+    "notes": "Assessment notes 134 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ded1abe0fbb388d567",
+    "student": "682c1083d1abe0fbb388ca3b",
+    "type": "behavioral",
+    "date": "2024-06-07T07:00:00.000Z",
+    "score": 99,
+    "notes": "Assessment notes 135 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ded1abe0fbb388d569",
+    "student": "682c108bd1abe0fbb388cb3f",
+    "type": "behavioral",
+    "date": "2024-07-09T07:00:00.000Z",
+    "score": 63,
+    "notes": "Assessment notes 136 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ded1abe0fbb388d56b",
+    "student": "682c108ad1abe0fbb388cb0f",
+    "type": "academic",
+    "date": "2024-08-11T07:00:00.000Z",
+    "score": 96,
+    "notes": "Assessment notes 137 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ded1abe0fbb388d56d",
+    "student": "682c1079d1abe0fbb388c90f",
+    "type": "behavioral",
+    "date": "2024-11-18T08:00:00.000Z",
+    "score": 74,
+    "notes": "Assessment notes 138 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ded1abe0fbb388d56f",
+    "student": "682c1081d1abe0fbb388c9f5",
+    "type": "behavioral",
+    "date": "2024-10-22T07:00:00.000Z",
+    "score": 93,
+    "notes": "Assessment notes 139 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ded1abe0fbb388d571",
+    "student": "682c108bd1abe0fbb388cb47",
+    "type": "behavioral",
+    "date": "2024-07-07T07:00:00.000Z",
+    "score": 86,
+    "notes": "Assessment notes 140 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ded1abe0fbb388d573",
+    "student": "682c107dd1abe0fbb388c98b",
+    "type": "academic",
+    "date": "2024-08-17T07:00:00.000Z",
+    "score": 63,
+    "notes": "Assessment notes 141 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ded1abe0fbb388d575",
+    "student": "682c107bd1abe0fbb388c93b",
+    "type": "behavioral",
+    "date": "2024-09-25T07:00:00.000Z",
+    "score": 76,
+    "notes": "Assessment notes 142 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10ded1abe0fbb388d577",
+    "student": "682c107fd1abe0fbb388c9d5",
+    "type": "behavioral",
+    "date": "2024-02-08T08:00:00.000Z",
+    "score": 86,
+    "notes": "Assessment notes 143 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dfd1abe0fbb388d579",
+    "student": "682c1088d1abe0fbb388cad7",
+    "type": "academic",
+    "date": "2024-04-22T07:00:00.000Z",
+    "score": 93,
+    "notes": "Assessment notes 144 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dfd1abe0fbb388d57b",
+    "student": "682c1082d1abe0fbb388ca1b",
+    "type": "academic",
+    "date": "2024-12-23T08:00:00.000Z",
+    "score": 92,
+    "notes": "Assessment notes 145 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dfd1abe0fbb388d57d",
+    "student": "682c1083d1abe0fbb388ca53",
+    "type": "academic",
+    "date": "2024-03-27T07:00:00.000Z",
+    "score": 68,
+    "notes": "Assessment notes 146 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dfd1abe0fbb388d57f",
+    "student": "682c1082d1abe0fbb388ca19",
+    "type": "behavioral",
+    "date": "2024-06-07T07:00:00.000Z",
+    "score": 89,
+    "notes": "Assessment notes 147 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dfd1abe0fbb388d581",
+    "student": "682c1082d1abe0fbb388ca25",
+    "type": "behavioral",
+    "date": "2024-08-27T07:00:00.000Z",
+    "score": 77,
+    "notes": "Assessment notes 148 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dfd1abe0fbb388d583",
+    "student": "682c1089d1abe0fbb388cb03",
+    "type": "behavioral",
+    "date": "2024-04-17T07:00:00.000Z",
+    "score": 61,
+    "notes": "Assessment notes 149 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dfd1abe0fbb388d585",
+    "student": "682c1084d1abe0fbb388ca61",
+    "type": "academic",
+    "date": "2024-02-28T08:00:00.000Z",
+    "score": 70,
+    "notes": "Assessment notes 150 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dfd1abe0fbb388d587",
+    "student": "682c107ad1abe0fbb388c923",
+    "type": "academic",
+    "date": "2024-12-09T08:00:00.000Z",
+    "score": 64,
+    "notes": "Assessment notes 151 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dfd1abe0fbb388d589",
+    "student": "682c1080d1abe0fbb388c9ef",
+    "type": "academic",
+    "date": "2024-06-20T07:00:00.000Z",
+    "score": 91,
+    "notes": "Assessment notes 152 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dfd1abe0fbb388d58b",
+    "student": "682c107cd1abe0fbb388c957",
+    "type": "behavioral",
+    "date": "2024-01-14T08:00:00.000Z",
+    "score": 62,
+    "notes": "Assessment notes 153 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dfd1abe0fbb388d58d",
+    "student": "682c1083d1abe0fbb388ca4d",
+    "type": "academic",
+    "date": "2024-06-18T07:00:00.000Z",
+    "score": 69,
+    "notes": "Assessment notes 154 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dfd1abe0fbb388d58f",
+    "student": "682c108bd1abe0fbb388cb45",
+    "type": "behavioral",
+    "date": "2024-03-17T07:00:00.000Z",
+    "score": 97,
+    "notes": "Assessment notes 155 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dfd1abe0fbb388d591",
+    "student": "682c107ed1abe0fbb388c9af",
+    "type": "behavioral",
+    "date": "2024-11-11T08:00:00.000Z",
+    "score": 69,
+    "notes": "Assessment notes 156 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dfd1abe0fbb388d593",
+    "student": "682c107ad1abe0fbb388c92d",
+    "type": "behavioral",
+    "date": "2024-11-01T07:00:00.000Z",
+    "score": 63,
+    "notes": "Assessment notes 157 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10dfd1abe0fbb388d595",
+    "student": "682c1082d1abe0fbb388ca33",
+    "type": "academic",
+    "date": "2024-01-11T08:00:00.000Z",
+    "score": 65,
+    "notes": "Assessment notes 158 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e0d1abe0fbb388d597",
+    "student": "682c1088d1abe0fbb388cad3",
+    "type": "behavioral",
+    "date": "2024-03-04T08:00:00.000Z",
+    "score": 80,
+    "notes": "Assessment notes 159 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e0d1abe0fbb388d599",
+    "student": "682c107bd1abe0fbb388c94d",
+    "type": "academic",
+    "date": "2024-12-09T08:00:00.000Z",
+    "score": 84,
+    "notes": "Assessment notes 160 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e0d1abe0fbb388d59b",
+    "student": "682c1079d1abe0fbb388c907",
+    "type": "behavioral",
+    "date": "2024-03-25T07:00:00.000Z",
+    "score": 86,
+    "notes": "Assessment notes 161 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e0d1abe0fbb388d59d",
+    "student": "682c107ed1abe0fbb388c99b",
+    "type": "academic",
+    "date": "2024-01-08T08:00:00.000Z",
+    "score": 83,
+    "notes": "Assessment notes 162 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e0d1abe0fbb388d59f",
+    "student": "682c1089d1abe0fbb388cb07",
+    "type": "behavioral",
+    "date": "2024-11-23T08:00:00.000Z",
+    "score": 88,
+    "notes": "Assessment notes 163 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e0d1abe0fbb388d5a1",
+    "student": "682c1084d1abe0fbb388ca5f",
+    "type": "behavioral",
+    "date": "2024-02-26T08:00:00.000Z",
+    "score": 84,
+    "notes": "Assessment notes 164 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e0d1abe0fbb388d5a3",
+    "student": "682c107fd1abe0fbb388c9b9",
+    "type": "academic",
+    "date": "2024-12-14T08:00:00.000Z",
+    "score": 74,
+    "notes": "Assessment notes 165 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e0d1abe0fbb388d5a5",
+    "student": "682c1080d1abe0fbb388c9e1",
+    "type": "academic",
+    "date": "2024-12-20T08:00:00.000Z",
+    "score": 85,
+    "notes": "Assessment notes 166 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e0d1abe0fbb388d5a7",
+    "student": "682c1088d1abe0fbb388caeb",
+    "type": "academic",
+    "date": "2024-05-26T07:00:00.000Z",
+    "score": 99,
+    "notes": "Assessment notes 167 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e0d1abe0fbb388d5a9",
+    "student": "682c107fd1abe0fbb388c9c3",
+    "type": "behavioral",
+    "date": "2024-12-03T08:00:00.000Z",
+    "score": 79,
+    "notes": "Assessment notes 168 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e0d1abe0fbb388d5ab",
+    "student": "682c108cd1abe0fbb388cb53",
+    "type": "behavioral",
+    "date": "2024-01-05T08:00:00.000Z",
+    "score": 98,
+    "notes": "Assessment notes 169 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e0d1abe0fbb388d5ad",
+    "student": "682c107cd1abe0fbb388c95f",
+    "type": "behavioral",
+    "date": "2024-01-17T08:00:00.000Z",
+    "score": 95,
+    "notes": "Assessment notes 170 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e0d1abe0fbb388d5af",
+    "student": "682c107ad1abe0fbb388c92b",
+    "type": "behavioral",
+    "date": "2024-11-16T08:00:00.000Z",
+    "score": 61,
+    "notes": "Assessment notes 171 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5b1",
+    "student": "682c1080d1abe0fbb388c9ed",
+    "type": "behavioral",
+    "date": "2024-08-25T07:00:00.000Z",
+    "score": 68,
+    "notes": "Assessment notes 172 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5b3",
+    "student": "682c1084d1abe0fbb388ca6d",
+    "type": "behavioral",
+    "date": "2024-10-04T07:00:00.000Z",
+    "score": 78,
+    "notes": "Assessment notes 173 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5b5",
+    "student": "682c1080d1abe0fbb388c9ed",
+    "type": "behavioral",
+    "date": "2024-04-26T07:00:00.000Z",
+    "score": 86,
+    "notes": "Assessment notes 174 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5b7",
+    "student": "682c108ad1abe0fbb388cb13",
+    "type": "academic",
+    "date": "2024-05-04T07:00:00.000Z",
+    "score": 88,
+    "notes": "Assessment notes 175 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5b9",
+    "student": "682c1080d1abe0fbb388c9d7",
+    "type": "behavioral",
+    "date": "2024-08-23T07:00:00.000Z",
+    "score": 89,
+    "notes": "Assessment notes 176 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5bb",
+    "student": "682c108bd1abe0fbb388cb39",
+    "type": "academic",
+    "date": "2024-11-15T08:00:00.000Z",
+    "score": 71,
+    "notes": "Assessment notes 177 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5bd",
+    "student": "682c107cd1abe0fbb388c961",
+    "type": "behavioral",
+    "date": "2024-06-04T07:00:00.000Z",
+    "score": 87,
+    "notes": "Assessment notes 178 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5bf",
+    "student": "682c108ad1abe0fbb388cb23",
+    "type": "behavioral",
+    "date": "2024-02-20T08:00:00.000Z",
+    "score": 83,
+    "notes": "Assessment notes 179 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5c1",
+    "student": "682c1083d1abe0fbb388ca51",
+    "type": "academic",
+    "date": "2024-10-05T07:00:00.000Z",
+    "score": 95,
+    "notes": "Assessment notes 180 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5c3",
+    "student": "682c1085d1abe0fbb388ca7d",
+    "type": "behavioral",
+    "date": "2024-06-07T07:00:00.000Z",
+    "score": 84,
+    "notes": "Assessment notes 181 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5c5",
+    "student": "682c1087d1abe0fbb388cabd",
+    "type": "academic",
+    "date": "2024-01-20T08:00:00.000Z",
+    "score": 100,
+    "notes": "Assessment notes 182 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5c7",
+    "student": "682c1085d1abe0fbb388ca83",
+    "type": "behavioral",
+    "date": "2024-12-12T08:00:00.000Z",
+    "score": 72,
+    "notes": "Assessment notes 183 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5c9",
+    "student": "682c108ad1abe0fbb388cb1b",
+    "type": "behavioral",
+    "date": "2024-05-28T07:00:00.000Z",
+    "score": 66,
+    "notes": "Assessment notes 184 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5cb",
+    "student": "682c1086d1abe0fbb388caa5",
+    "type": "academic",
+    "date": "2024-10-10T07:00:00.000Z",
+    "score": 60,
+    "notes": "Assessment notes 185 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5cd",
+    "student": "682c1088d1abe0fbb388cad9",
+    "type": "academic",
+    "date": "2024-07-03T07:00:00.000Z",
+    "score": 91,
+    "notes": "Assessment notes 186 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e1d1abe0fbb388d5cf",
+    "student": "682c1086d1abe0fbb388caaf",
+    "type": "academic",
+    "date": "2024-07-16T07:00:00.000Z",
+    "score": 77,
+    "notes": "Assessment notes 187 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5d1",
+    "student": "682c107ad1abe0fbb388c923",
+    "type": "behavioral",
+    "date": "2024-06-06T07:00:00.000Z",
+    "score": 61,
+    "notes": "Assessment notes 188 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5d3",
+    "student": "682c107bd1abe0fbb388c953",
+    "type": "behavioral",
+    "date": "2024-05-20T07:00:00.000Z",
+    "score": 97,
+    "notes": "Assessment notes 189 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5d5",
+    "student": "682c107fd1abe0fbb388c9bd",
+    "type": "academic",
+    "date": "2024-01-14T08:00:00.000Z",
+    "score": 61,
+    "notes": "Assessment notes 190 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5d7",
+    "student": "682c107ad1abe0fbb388c92f",
+    "type": "behavioral",
+    "date": "2024-01-03T08:00:00.000Z",
+    "score": 71,
+    "notes": "Assessment notes 191 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5d9",
+    "student": "682c1083d1abe0fbb388ca3d",
+    "type": "behavioral",
+    "date": "2024-03-21T07:00:00.000Z",
+    "score": 100,
+    "notes": "Assessment notes 192 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5db",
+    "student": "682c1084d1abe0fbb388ca73",
+    "type": "academic",
+    "date": "2024-09-12T07:00:00.000Z",
+    "score": 69,
+    "notes": "Assessment notes 193 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5dd",
+    "student": "682c1086d1abe0fbb388caa3",
+    "type": "behavioral",
+    "date": "2024-02-10T08:00:00.000Z",
+    "score": 77,
+    "notes": "Assessment notes 194 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5df",
+    "student": "682c1080d1abe0fbb388c9d9",
+    "type": "academic",
+    "date": "2024-06-07T07:00:00.000Z",
+    "score": 77,
+    "notes": "Assessment notes 195 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5e1",
+    "student": "682c108bd1abe0fbb388cb3d",
+    "type": "academic",
+    "date": "2024-04-24T07:00:00.000Z",
+    "score": 100,
+    "notes": "Assessment notes 196 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5e3",
+    "student": "682c1087d1abe0fbb388cacb",
+    "type": "academic",
+    "date": "2024-05-12T07:00:00.000Z",
+    "score": 71,
+    "notes": "Assessment notes 197 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5e5",
+    "student": "682c108ad1abe0fbb388cb19",
+    "type": "behavioral",
+    "date": "2024-01-20T08:00:00.000Z",
+    "score": 88,
+    "notes": "Assessment notes 198 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5e7",
+    "student": "682c1081d1abe0fbb388ca01",
+    "type": "academic",
+    "date": "2024-10-21T07:00:00.000Z",
+    "score": 70,
+    "notes": "Assessment notes 199 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5e9",
+    "student": "682c1082d1abe0fbb388ca29",
+    "type": "academic",
+    "date": "2024-08-01T07:00:00.000Z",
+    "score": 77,
+    "notes": "Assessment notes 200 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5eb",
+    "student": "682c108ad1abe0fbb388cb23",
+    "type": "academic",
+    "date": "2024-12-16T08:00:00.000Z",
+    "score": 89,
+    "notes": "Assessment notes 201 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5ed",
+    "student": "682c1089d1abe0fbb388cb03",
+    "type": "behavioral",
+    "date": "2024-06-16T07:00:00.000Z",
+    "score": 88,
+    "notes": "Assessment notes 202 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e2d1abe0fbb388d5ef",
+    "student": "682c107fd1abe0fbb388c9cb",
+    "type": "academic",
+    "date": "2024-05-19T07:00:00.000Z",
+    "score": 91,
+    "notes": "Assessment notes 203 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d5f1",
+    "student": "682c107bd1abe0fbb388c93f",
+    "type": "academic",
+    "date": "2024-10-18T07:00:00.000Z",
+    "score": 66,
+    "notes": "Assessment notes 204 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d5f3",
+    "student": "682c107ad1abe0fbb388c92f",
+    "type": "behavioral",
+    "date": "2024-10-24T07:00:00.000Z",
+    "score": 79,
+    "notes": "Assessment notes 205 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d5f5",
+    "student": "682c1081d1abe0fbb388ca03",
+    "type": "academic",
+    "date": "2024-12-11T08:00:00.000Z",
+    "score": 72,
+    "notes": "Assessment notes 206 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d5f7",
+    "student": "682c1079d1abe0fbb388c909",
+    "type": "behavioral",
+    "date": "2024-11-26T08:00:00.000Z",
+    "score": 62,
+    "notes": "Assessment notes 207 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d5f9",
+    "student": "682c107ed1abe0fbb388c999",
+    "type": "behavioral",
+    "date": "2024-05-11T07:00:00.000Z",
+    "score": 74,
+    "notes": "Assessment notes 208 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d5fb",
+    "student": "682c108ad1abe0fbb388cb17",
+    "type": "behavioral",
+    "date": "2024-11-10T08:00:00.000Z",
+    "score": 85,
+    "notes": "Assessment notes 209 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d5fd",
+    "student": "682c108ad1abe0fbb388cb27",
+    "type": "behavioral",
+    "date": "2024-03-09T08:00:00.000Z",
+    "score": 70,
+    "notes": "Assessment notes 210 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d5ff",
+    "student": "682c1081d1abe0fbb388c9f7",
+    "type": "behavioral",
+    "date": "2024-10-13T07:00:00.000Z",
+    "score": 98,
+    "notes": "Assessment notes 211 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d601",
+    "student": "682c108ad1abe0fbb388cb1f",
+    "type": "academic",
+    "date": "2024-11-08T08:00:00.000Z",
+    "score": 72,
+    "notes": "Assessment notes 212 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d603",
+    "student": "682c107ed1abe0fbb388c9b1",
+    "type": "academic",
+    "date": "2024-02-13T08:00:00.000Z",
+    "score": 98,
+    "notes": "Assessment notes 213 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d605",
+    "student": "682c1084d1abe0fbb388ca69",
+    "type": "academic",
+    "date": "2024-05-25T07:00:00.000Z",
+    "score": 87,
+    "notes": "Assessment notes 214 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d607",
+    "student": "682c1084d1abe0fbb388ca65",
+    "type": "behavioral",
+    "date": "2024-01-20T08:00:00.000Z",
+    "score": 60,
+    "notes": "Assessment notes 215 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d609",
+    "student": "682c1081d1abe0fbb388c9f9",
+    "type": "behavioral",
+    "date": "2024-09-20T07:00:00.000Z",
+    "score": 75,
+    "notes": "Assessment notes 216 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d60b",
+    "student": "682c107fd1abe0fbb388c9cb",
+    "type": "academic",
+    "date": "2024-03-06T08:00:00.000Z",
+    "score": 98,
+    "notes": "Assessment notes 217 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d60d",
+    "student": "682c107dd1abe0fbb388c987",
+    "type": "behavioral",
+    "date": "2024-08-09T07:00:00.000Z",
+    "score": 80,
+    "notes": "Assessment notes 218 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d60f",
+    "student": "682c1086d1abe0fbb388caab",
+    "type": "academic",
+    "date": "2024-05-24T07:00:00.000Z",
+    "score": 69,
+    "notes": "Assessment notes 219 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e3d1abe0fbb388d611",
+    "student": "682c1086d1abe0fbb388caa5",
+    "type": "academic",
+    "date": "2024-08-21T07:00:00.000Z",
+    "score": 71,
+    "notes": "Assessment notes 220 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d613",
+    "student": "682c1082d1abe0fbb388ca21",
+    "type": "academic",
+    "date": "2024-01-14T08:00:00.000Z",
+    "score": 96,
+    "notes": "Assessment notes 221 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d615",
+    "student": "682c108ad1abe0fbb388cb13",
+    "type": "behavioral",
+    "date": "2024-09-28T07:00:00.000Z",
+    "score": 95,
+    "notes": "Assessment notes 222 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d617",
+    "student": "682c107cd1abe0fbb388c96d",
+    "type": "academic",
+    "date": "2024-12-18T08:00:00.000Z",
+    "score": 81,
+    "notes": "Assessment notes 223 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d619",
+    "student": "682c107ed1abe0fbb388c9b1",
+    "type": "behavioral",
+    "date": "2024-01-05T08:00:00.000Z",
+    "score": 71,
+    "notes": "Assessment notes 224 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d61b",
+    "student": "682c107ed1abe0fbb388c9ab",
+    "type": "academic",
+    "date": "2024-03-04T08:00:00.000Z",
+    "score": 99,
+    "notes": "Assessment notes 225 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d61d",
+    "student": "682c1083d1abe0fbb388ca37",
+    "type": "academic",
+    "date": "2024-06-11T07:00:00.000Z",
+    "score": 91,
+    "notes": "Assessment notes 226 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d61f",
+    "student": "682c1083d1abe0fbb388ca3d",
+    "type": "behavioral",
+    "date": "2024-07-14T07:00:00.000Z",
+    "score": 96,
+    "notes": "Assessment notes 227 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d621",
+    "student": "682c107fd1abe0fbb388c9d5",
+    "type": "behavioral",
+    "date": "2024-03-13T07:00:00.000Z",
+    "score": 74,
+    "notes": "Assessment notes 228 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d623",
+    "student": "682c1081d1abe0fbb388c9f5",
+    "type": "academic",
+    "date": "2024-02-27T08:00:00.000Z",
+    "score": 85,
+    "notes": "Assessment notes 229 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 9",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d625",
+    "student": "682c1088d1abe0fbb388cae3",
+    "type": "behavioral",
+    "date": "2024-01-13T08:00:00.000Z",
+    "score": 70,
+    "notes": "Assessment notes 230 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d627",
+    "student": "682c107ed1abe0fbb388c9a7",
+    "type": "behavioral",
+    "date": "2024-08-23T07:00:00.000Z",
+    "score": 84,
+    "notes": "Assessment notes 231 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d629",
+    "student": "682c108bd1abe0fbb388cb4b",
+    "type": "behavioral",
+    "date": "2024-07-06T07:00:00.000Z",
+    "score": 71,
+    "notes": "Assessment notes 232 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d62b",
+    "student": "682c108bd1abe0fbb388cb4f",
+    "type": "academic",
+    "date": "2024-04-18T07:00:00.000Z",
+    "score": 84,
+    "notes": "Assessment notes 233 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d62d",
+    "student": "682c1084d1abe0fbb388ca6f",
+    "type": "behavioral",
+    "date": "2024-11-08T08:00:00.000Z",
+    "score": 78,
+    "notes": "Assessment notes 234 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d62f",
+    "student": "682c1080d1abe0fbb388c9e3",
+    "type": "academic",
+    "date": "2024-10-21T07:00:00.000Z",
+    "score": 75,
+    "notes": "Assessment notes 235 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d631",
+    "student": "682c108bd1abe0fbb388cb47",
+    "type": "academic",
+    "date": "2024-10-23T07:00:00.000Z",
+    "score": 96,
+    "notes": "Assessment notes 236 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 5",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e4d1abe0fbb388d633",
+    "student": "682c1085d1abe0fbb388ca8d",
+    "type": "academic",
+    "date": "2024-01-25T08:00:00.000Z",
+    "score": 94,
+    "notes": "Assessment notes 237 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e5d1abe0fbb388d635",
+    "student": "682c107fd1abe0fbb388c9d3",
+    "type": "behavioral",
+    "date": "2024-03-03T08:00:00.000Z",
+    "score": 86,
+    "notes": "Assessment notes 238 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 0",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e5d1abe0fbb388d637",
+    "student": "682c1087d1abe0fbb388cabf",
+    "type": "behavioral",
+    "date": "2024-05-14T07:00:00.000Z",
+    "score": 70,
+    "notes": "Assessment notes 239 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e5d1abe0fbb388d639",
+    "student": "682c1083d1abe0fbb388ca4b",
+    "type": "behavioral",
+    "date": "2024-07-09T07:00:00.000Z",
+    "score": 98,
+    "notes": "Assessment notes 240 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e5d1abe0fbb388d63b",
+    "student": "682c1083d1abe0fbb388ca3d",
+    "type": "academic",
+    "date": "2024-07-05T07:00:00.000Z",
+    "score": 64,
+    "notes": "Assessment notes 241 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 8",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e5d1abe0fbb388d63d",
+    "student": "682c107dd1abe0fbb388c989",
+    "type": "behavioral",
+    "date": "2024-10-02T07:00:00.000Z",
+    "score": 92,
+    "notes": "Assessment notes 242 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e5d1abe0fbb388d63f",
+    "student": "682c107dd1abe0fbb388c993",
+    "type": "behavioral",
+    "date": "2024-11-03T07:00:00.000Z",
+    "score": 84,
+    "notes": "Assessment notes 243 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 2",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e5d1abe0fbb388d641",
+    "student": "682c107fd1abe0fbb388c9b9",
+    "type": "academic",
+    "date": "2024-01-06T08:00:00.000Z",
+    "score": 74,
+    "notes": "Assessment notes 244 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e5d1abe0fbb388d643",
+    "student": "682c1081d1abe0fbb388c9fd",
+    "type": "academic",
+    "date": "2024-05-11T07:00:00.000Z",
+    "score": 77,
+    "notes": "Assessment notes 245 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 6",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e5d1abe0fbb388d645",
+    "student": "682c1083d1abe0fbb388ca45",
+    "type": "academic",
+    "date": "2024-10-21T07:00:00.000Z",
+    "score": 88,
+    "notes": "Assessment notes 246 - summary of performance or behavior.",
+    "assessedBy": "Mr. Patel 3",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e5d1abe0fbb388d647",
+    "student": "682c1089d1abe0fbb388cb05",
+    "type": "academic",
+    "date": "2024-02-12T08:00:00.000Z",
+    "score": 70,
+    "notes": "Assessment notes 247 - summary of performance or behavior.",
+    "assessedBy": "Ms. Lee 4",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e5d1abe0fbb388d649",
+    "student": "682c107ed1abe0fbb388c99d",
+    "type": "behavioral",
+    "date": "2024-07-27T07:00:00.000Z",
+    "score": 81,
+    "notes": "Assessment notes 248 - summary of performance or behavior.",
+    "assessedBy": "Mr. Kim 7",
+    "__v": 0
+  },
+  {
+    "_id": "682c10e5d1abe0fbb388d64b",
+    "student": "682c108bd1abe0fbb388cb45",
+    "type": "academic",
+    "date": "2024-05-06T07:00:00.000Z",
+    "score": 90,
+    "notes": "Assessment notes 249 - summary of performance or behavior.",
+    "assessedBy": "Ms. Garcia 1",
+    "__v": 0
+  }
+]
