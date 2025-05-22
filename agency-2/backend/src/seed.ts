@@ -10,6 +10,14 @@ import Assessment from './models/assessment';
 
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/agency';
 
+function randomItem<T>(arr: T[]): T {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function randomDate(year = 2024) {
+  return new Date(year, Math.floor(Math.random() * 12), Math.floor(Math.random() * 28) + 1);
+}
+
 async function seed() {
   await mongoose.connect(MONGODB_URI);
 
@@ -25,31 +33,100 @@ async function seed() {
     Assessment.deleteMany({}),
   ]);
 
-  // Seed students
-  const student1 = await Student.create({ firstName: 'Alice', lastName: 'Wong', grade: '12' });
-  const student2 = await Student.create({ firstName: 'Bob', lastName: 'Smith', grade: '11' });
-
   // Seed counselors
-  const counselor1 = await Counselor.create({ name: 'Ms. Lee', email: 'lee@school.edu', role: 'counselor' });
-  const counselor2 = await Counselor.create({ name: 'Mr. Patel', email: 'patel@school.edu', role: 'counselor' });
+  const counselorNames = ['Ms. Lee', 'Mr. Patel', 'Mrs. Smith', 'Dr. Brown', 'Ms. Garcia', 'Mr. Kim'];
+  const counselors = [];
+  for (let i = 0; i < 10; i++) {
+    counselors.push(await Counselor.create({
+      name: `${randomItem(counselorNames)} ${i}`,
+      email: `counselor${i}@school.edu`,
+      role: i % 2 === 0 ? 'counselor' : 'admin'
+    }));
+  }
+
+  // Seed students
+  const grades = ['10', '11', '12'];
+  const riskLevels = ['low', 'medium', 'high'];
+  const students = [];
+  for (let i = 0; i < 300; i++) {
+    students.push(await Student.create({
+      firstName: `Student${i}`,
+      lastName: `Test${i}`,
+      dob: new Date(2005 + (i % 5), i % 12, (i % 28) + 1),
+      grade: randomItem(grades),
+      riskLevel: randomItem(riskLevels)
+    }));
+  }
 
   // Seed events
-  await Event.create({ student: student1._id, counselor: counselor1._id, type: 'meeting', date: new Date(), notes: 'Initial meeting' });
+  for (let i = 0; i < 250; i++) {
+    await Event.create({
+      student: randomItem(students)._id,
+      counselor: randomItem(counselors)._id,
+      type: randomItem(['meeting', 'intervention', 'IEP', 'crisis']),
+      date: randomDate(),
+      notes: `Event notes ${i}`
+    });
+  }
 
   // Seed consents
-  await Consent.create({ student: student1._id, type: 'data_sharing', granted: true, grantedBy: 'parent', date: new Date(), expires: null });
+  for (let i = 0; i < 250; i++) {
+    await Consent.create({
+      student: randomItem(students)._id,
+      type: randomItem(['data_sharing', 'external_provider']),
+      granted: Math.random() > 0.2,
+      grantedBy: randomItem(['parent', 'student']),
+      date: randomDate(),
+      expires: null
+    });
+  }
 
   // Seed communications
-  await Communication.create({ student: student1._id, counselor: counselor1._id, type: 'email', content: 'Welcome!', date: new Date() });
+  for (let i = 0; i < 250; i++) {
+    await Communication.create({
+      student: randomItem(students)._id,
+      counselor: randomItem(counselors)._id,
+      type: randomItem(['email', 'note', 'sms']),
+      content: `Communication content ${i} about student progress, meeting, or incident.`,
+      date: randomDate()
+    });
+  }
 
   // Seed audit logs
-  await AuditLog.create({ action: 'CREATE_STUDENT', user: 'admin', details: { student: student1._id }, target: 'Student', targetId: student1._id });
+  for (let i = 0; i < 200; i++) {
+    await AuditLog.create({
+      action: randomItem(['CREATE_STUDENT', 'UPDATE_CONSENT', 'CREATE_EVENT']),
+      user: randomItem(counselors).name,
+      details: { info: `Details for log ${i}` },
+      target: randomItem(['Student', 'Consent', 'Event']),
+      targetId: randomItem(students)._id
+    });
+  }
 
   // Seed incidents
-  await Incident.create({ student: student2._id, type: 'bullying', date: new Date(), description: 'Reported bullying incident', reportedBy: 'teacher', resolved: false });
+  for (let i = 0; i < 200; i++) {
+    await Incident.create({
+      student: randomItem(students)._id,
+      type: randomItem(['bullying', 'injury', 'conflict', 'other']),
+      date: randomDate(),
+      description: `Incident description ${i} - details about what happened.`,
+      reportedBy: randomItem(['teacher', 'coach', 'admin']),
+      resolved: Math.random() > 0.5,
+      resolutionNotes: Math.random() > 0.5 ? `Resolution notes ${i}` : undefined
+    });
+  }
 
   // Seed assessments
-  await Assessment.create({ student: student2._id, type: 'academic', date: new Date(), score: 85, notes: 'Math test', assessedBy: 'Ms. Lee' });
+  for (let i = 0; i < 250; i++) {
+    await Assessment.create({
+      student: randomItem(students)._id,
+      type: randomItem(['academic', 'behavioral']),
+      date: randomDate(),
+      score: Math.floor(Math.random() * 41) + 60,
+      notes: `Assessment notes ${i} - summary of performance or behavior.`,
+      assessedBy: randomItem(counselors).name
+    });
+  }
 
   await mongoose.disconnect();
   console.log('Seeding complete!');

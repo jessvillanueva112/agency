@@ -20,19 +20,19 @@ export class AgencyAssistant {
       // 1. Sync and process data
       await this.dataSync.syncLocalData();
       await this.communication.processIncoming();
-
+  
       // 2. Automate tasks
       await this.taskAutomation.identifyAndAutomate();
       await this.taskAutomation.scheduleFollowUps();
-
+  
       // 3. Assess student needs
       await this.riskAssessment.analyzeStudentData();
       await this.riskAssessment.flagAtRiskStudents();
-
+  
       // 4. Manage communications
       await this.communication.consolidateMessages();
       await this.communication.coordinateWithProviders();
-
+  
       // 5. Enforce privacy
       await this.privacy.audit();
 
@@ -50,5 +50,5 @@ export class AgencyAssistant {
         severity: 'high'
       });
     }
+    }
   }
-}

@@ -1,13 +1,45 @@
 # Agency - AI Assistant for School Counselors
 
-An intelligent assistant designed to help school counselors manage their workload more efficiently by automating administrative tasks and providing smart insights.
+An intelligent assistant wtih blockchain designed to help school counselors manage their workload more efficiently by automating administrative tasks and providing smart insights.
 
-## Tech Stack
+## Tech Stack (Updated)
 
 - **Frontend:** React/Next.js
-- **Backend:** Node.js/Express with TypeScript
+- **Backend:** Node.js/Express (TypeScript)
 - **Database:** MongoDB
-- **AI Services:** Python microservices
+- **AI Services:** Python/Flask microservices (risk, NLP)
+- **Blockchain:** Ethereum (Ganache local), Solidity, Hardhat, ethers.js
+- **Deployment:** Docker Compose
+
+## Quick Start
+
+1. **Start Ganache** (local blockchain, port 7545).
+2. **Compile & Deploy Smart Contract:**
+   ```sh
+   cd agency-2/backend
+   npx hardhat compile
+   npx hardhat run scripts/deploy.js --network localhost
+   ```
+3. **Update `utils/auditLogger.js` with contract address and ABI.**
+4. **Start Docker Compose:**
+   ```sh
+   docker compose up --build
+   ```
+5. **Start Frontend:**
+   ```sh
+   cd ../frontend
+   npm install
+   npm run dev
+   ```
+6. **Demo:**
+   - Use the dashboard to trigger predictions.
+   - Events are logged to blockchain (view in Ganache).
+
+## Features
+
+- AI-powered risk and note-type predictions
+- Blockchain audit logging for compliance
+- Unified dashboard for counselors
 
 ## Project Structure
 
