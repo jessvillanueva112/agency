@@ -10,6 +10,7 @@ import communicationRoutes from './routes/communication';
 import auditLogRoutes from './routes/auditLog';
 import incidentRoutes from './routes/incident';
 import assessmentRoutes from './routes/assessment';
+import aiAssistantRoutes from './routes/ai_assistant';
 
 // Load environment variables
 dotenv.config();
@@ -30,6 +31,7 @@ app.use('/api/communications', communicationRoutes);
 app.use('/api/audit-logs', auditLogRoutes);
 app.use('/api/incidents', incidentRoutes);
 app.use('/api/assessments', assessmentRoutes);
+app.use('/api/ai-assistant', aiAssistantRoutes);
 
 // Basic route
 app.get('/', (req: Request, res: Response) => {

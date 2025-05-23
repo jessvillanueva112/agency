@@ -1,10 +1,10 @@
 'use client';
-import DemoDashboard from '../components/DemoDashboard';
+import AIAssistantDashboard from '../components/AIAssistantDashboard';
 
 export default function Home() {
   return (
     <main>
-      <DemoDashboard />
+      <AIAssistantDashboard />
     </main>
   );
 }

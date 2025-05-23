@@ -6,6 +6,13 @@ import { PrivacyManager } from '../privacy/consent';
 import { BlockchainManager } from '../blockchain/manager';
 import { DocumentationStandardizer } from '../documentation/standardizer';
 
+// Import new AI modules
+import { suggestSchedule } from './smart_scheduling';
+import { aggregateCommunications } from './communication_hub';
+import { getStudentLocation } from './student_location';
+import { documentNote } from './documentation_assistant';
+import { runCrisisWorkflow } from './crisis_workflow';
+
 export class AgencyAssistant {
   private dataSync = new DataSyncManager();
   private taskAutomation = new TaskAutomation();
@@ -50,5 +57,27 @@ export class AgencyAssistant {
         severity: 'high'
       });
     }
-    }
   }
+
+  // New: Orchestrate all core AI features for demo/testing
+  async processAIOrchestration(input: string, context: any) {
+    // Smart Scheduling
+    const schedule = await suggestSchedule(context);
+    // Communication Hub
+    const comms = await aggregateCommunications(context);
+    // Student Location
+    const location = await getStudentLocation(context.studentId);
+    // Documentation Assistant
+    const doc = await documentNote(input, context);
+    // Crisis Workflow
+    const crisis = await runCrisisWorkflow(context);
+
+    return {
+      schedule,
+      comms,
+      location,
+      doc,
+      crisis,
+    };
+  }
+}
