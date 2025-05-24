@@ -16,9 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="min-h-screen flex flex-col items-center justify-start px-4 py-8 sm:px-8 md:px-16 lg:px-32 bg-gradient-to-br from-tremor-background-muted to-tremor-background-subtle dark:from-dark-tremor-background dark:to-dark-tremor-background transition-colors duration-300">
+      <body className={inter.className + ' bg-[#1a2234] text-white min-h-screen'}>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+          <div className="min-h-screen flex flex-col items-center justify-start px-4 py-8 sm:px-8 md:px-16 lg:px-32 w-full max-w-6xl mx-auto">
             {children}
           </div>
         </ThemeProvider>
